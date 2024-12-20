@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <center>
+    {% if age < 18 %}
+        <h1>Child Marriage</h1>
+    {% elif age > 18 and age < 30 %}
+        <h1> Legal Marriage</h1>
+    {% elif age > 30 and age < 45 %}
+        <h1> Actual Marriage</h1>
+    {%  else %}
+        <h1>Best Time Marry</h1>
+    {% endif %}
+
+
+ 
+
+   </center>
+
+    
+</body>
+</html>
